@@ -1,0 +1,8 @@
+# build context is the repo root; send only the inputs the Dockerfile uses
+*
+!original-game/ZATACKA.EXE
+!original-game/EGAVGA.BGI
+!original-game/TSCR.CHR
+!zatacka.cpp
+!build.py
+!borland/Disk*.img
