@@ -3,7 +3,7 @@
 > [!NOTE]
 > This document was written by Claude Code (Opus 5.5).
 
-`zatacka.cpp` is a hand-written reconstruction of the game code of ZATACKA.EXE ("Achtung, die Kurve!", 1991). Compiled with Borland C++ 3.1, it reproduces the original executable **byte for byte**: all 47,390 bytes, including the C0 startup code, runtime library, BGI graphics library and floating-point emulator that the linker pulls in. This document collects what was important, interesting or difficult about getting there.
+`zatacka.cpp` is a hand-written reconstruction of the game code of ZATACKA.EXE ("Achtung, die Kurve!", c. 1995). Compiled with Borland C++ 3.1, it reproduces the original executable **byte for byte**: all 47,390 bytes, including the C0 startup code, runtime library, BGI graphics library and floating-point emulator that the linker pulls in. This document collects what was important, interesting or difficult about getting there.
 
 ## The binary in brief
 
