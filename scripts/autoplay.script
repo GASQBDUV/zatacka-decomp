@@ -1,0 +1,15 @@
+# Inputskript för automatiska tester (ZATACKA_SCRIPT, platform.c): "ms:handling", ms sedan programstart.
+# +namn/-namn trycker/släpper: space (START), esc (SELECT), p0l..p4l / p0r..p4r (spelare 0-4 vänster/höger),
+# bl/br/bm (blå: pekzon vänster/höger, mittenknapp). shot = dump av båda panelerna, quit = avsluta.
+# Med ZATACKA_SEED=original blir partiet deterministiskt.
+1500:shot
+2000:+space 2150:-space
+2500:+p0l 2600:-p0l 2700:+p1l 2800:-p1l 2900:+bl 3000:-bl
+3500:shot
+3800:+space 3950:-space
+7000:+p0l 7600:-p0l 7200:+br 8000:-br
+9000:shot
+13000:shot
+13500:+space 13650:-space
+18000:shot
+18500:quit

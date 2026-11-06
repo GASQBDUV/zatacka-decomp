@@ -1,0 +1,25 @@
+# Zatacka-inställningar. Kopiera till /data/zatacka/zatacka.conf (deploy.sh --mode gör det åt dig).
+# Läses av run-zatacka.sh med sh (vanliga skalvariabler).
+
+# dual   spelet uppe, resultattavla/lobbyhjälp/pekzoner nere (standard)
+# swap   tvärtom: spelet på den nedre panelen
+# single bara spelet uppe, nedre panelen släckt
+ZATACKA_SCREENS=dual
+
+# sharp  närmaste granne (skarpa pixlar, standard)
+# smooth ytviktad skalning (jämnare linjer vid 1,6x på RG DS Plus)
+#ZATACKA_FILTER=smooth
+
+# Startpositioner: tom = slumpas varje gång, "original" = som DOS-originalet (aldrig seedat: samma
+# positioner varje parti), ett tal = det fröet
+#ZATACKA_SEED=original
+
+# pad = handkontrollens knappar i lobbyn, keyboard = originalets tangenter
+#ZATACKA_LABELS=pad
+
+# 0 = ingen statistikrad i loggen var 30:e sekund
+#ZATACKA_STATS=0
+
+# 0 = bortse från tangentbord. Behövs bara om styrkorset även syns som piltangenter (då styr vänster på korset
+# både röd och grön): loggen visar "första tangenthändelsen: Left" utan att något tangentbord är anslutet.
+#ZATACKA_KEYBOARD=0

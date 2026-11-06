@@ -1,0 +1,12 @@
+
+# Zatacka (zatacka-bananaos): en egen hylla i stället för Ports. Ingen run-port, så den nedre panelen släcks
+# aldrig, och klockprofilen kan väljas. deploy.sh --shelf lägger till det här och skapar mappen och posten.
+[zatacka]
+name = Zatacka
+maker = Achtung, die Kurve!
+folder = /data/zatacka/shelf
+ext = zatacka
+run = /data/zatacka/run-zatacka.sh %ROM%
+perf = balanced
+flat = yes
+always = yes
